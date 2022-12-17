@@ -95,3 +95,25 @@ a{
     border-radius: 4px;
     border: 4px solid #3882F6;
 }
+
+/* quote section */
+.quote{
+    display: flex;
+    flex-direction: column;
+    background: #e5e7eb;
+    padding: 64px 160px;
+}
+
+.quote .text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote .author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
